@@ -1,0 +1,35 @@
+<div class="grid-item">
+  <h2>Tasks that have not been completed:</h2>
+
+  <ul>
+    {{#each tasks}}
+      {{#unless completed}}
+        {{> task-block}}
+      {{/unless}}
+    {{/each}}
+  </ul>
+</div>
+
+<div class="grid-item">
+  <form class="form-inline create-form centered-form">
+    <h2>Add a Task:</h2>
+    <div class="form-group">
+      <label for="task">Task Name:</label>
+      <input type="text" id="task" name="task_name" required>
+      <button type="submit">Add Task</button>
+    </div>
+  </form>
+  <img src="/assets/img/task.png" alt="Picture of a task">
+</div>
+
+<div class="grid-item">
+  <h2>Tasks that have been completed:</h2>
+
+  <ul>
+    {{#each tasks}}
+      {{#if completed}}
+        {{> task-block}}
+      {{/if}}
+    {{/each}}
+  </ul>
+</div>

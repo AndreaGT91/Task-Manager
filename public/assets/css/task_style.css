@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(238, 228, 209);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-right: 20px;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #b6a793;
+}
+
+button {
+  color: rgb(233, 231, 231);
+  background-color: rgb(51, 30, 3);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  width: 50%;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
+.centered-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+}

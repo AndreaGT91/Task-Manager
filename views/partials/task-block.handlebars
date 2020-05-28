@@ -1,0 +1,9 @@
+<li>
+	{{task_name}}
+
+  {{#unless completed}}
+	<button class="complete-task" data-id="{{id}}">Completed</button>
+	{{/unless}}
+	
+	<button class="delete-task" data-id="{{id}}">Delete</button>
+</li>
