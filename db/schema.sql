@@ -1,9 +1,9 @@
--- USE cjtc74v6p0p8b0tw;
+-- USE m5579rzj2yaqcl90;
 
 -- CREATE TABLE todos (
 -- id INT AUTO_INCREMENT NOT NULL,
 -- description VARCHAR(255),
--- createdAt TIMESTAMP NOT NULL,
+-- createdAt TIMESTAMP NOT NULL CURRENT_TIMESTAMP,
 -- PRIMARY KEY(id)
 -- );
 
