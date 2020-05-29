@@ -1,5 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
+
   $(".complete-task").on("click", function(event) {
     let id = $(this).data("id");
 

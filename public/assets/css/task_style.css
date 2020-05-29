@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(238, 228, 209);
+  background-color: rgb(203, 216, 245);
+  color: rgb(0, 0, 108);
 }
 
 h1 {
@@ -13,12 +14,12 @@ h2 {
 li {
   padding: 5px;
   margin: 5px;
-  background: #b6a793;
+  background: rgb(153, 159, 211);
 }
 
 button {
-  color: rgb(233, 231, 231);
-  background-color: rgb(51, 30, 3);
+  color: rgb(232, 231, 233);
+  background-color: rgb(34, 13, 140);
 }
 
 img {
